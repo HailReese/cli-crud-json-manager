@@ -1,5 +1,7 @@
 package com.example.repository;
 
-public interface LabelRepository extends GenericRepository<LabelRepository, Long> {
+import com.example.model.Label;
+
+public interface LabelRepository extends GenericRepository<Label, Long> {
 
 }
